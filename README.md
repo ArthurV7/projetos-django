@@ -1,0 +1,1 @@
+Repositório criado para registrar avanços, exercícios e estudos do Web Framework Django. Estudos focados para área de desenvolvimento Back-End.
