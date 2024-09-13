@@ -25,5 +25,6 @@ def my_view(request):
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('sobre/', view=my_view)
+    path('sobre/', view=my_view),
+    path("", view=my_view)
 ]
