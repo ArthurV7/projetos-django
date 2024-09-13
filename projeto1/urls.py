@@ -17,19 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.http import HttpResponse
-
-
-def my_viewHome(request):
-    return HttpResponse('HOME')
-
-
-def my_viewAbout(request):
-    return HttpResponse('SOBRE')
-
-
-def my_viewContact(request):
-    return HttpResponse('CONTATO')
-
+from recipes.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
