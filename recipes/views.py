@@ -3,7 +3,7 @@ from django.http import HttpResponse
 
 
 def my_viewHome(request):
-    return HttpResponse('HOME')
+    return render(request=request, template_name='recipes/index.html')
 
 
 def my_viewAbout(request):
