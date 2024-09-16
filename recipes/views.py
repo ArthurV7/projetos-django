@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 
 
 def my_viewHome(request):
@@ -7,9 +6,9 @@ def my_viewHome(request):
 
 
 def my_viewAbout(request):
-    return HttpResponse('SOBRE')
+    return render(request=request, template_name='recipes/about.html')
 
 
 def my_viewContact(request):
-    return HttpResponse('CONTATO')
+    return render(request=request, template_name='recipes/contact.html')
 
